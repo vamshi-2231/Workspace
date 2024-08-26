@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../Team/Team.css'
 export default function Team() {
   return (
     <div>

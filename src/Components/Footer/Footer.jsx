@@ -87,60 +87,108 @@ export default function Footer() {
             </li>
           </ul>
 
-          <ul className="footer-list">
-            <li>
-              <p className="footer-list-title">Instagram post</p>
-            </li>
-            <li>
-              <ul className="insta-post">
+          <ul class="footer-list">
+
                 <li>
-                  <div className="insta-card">
-                    <figure className="post-banner">
-                      <img
-                        src="https://lh3.googleusercontent.com/pw/ABLVV86VygtnwQpDm78XNJpIVA4N1DTrHU0MUrEfOieMuQEtO79X4pyidkTRkquK3RBXNNwZ4YAusxiRtpgFnOLgJ1ReT8-m5pcYiIp3HmF0CbRYur2RhA=w2400?source=screenshot.guru"
-                        width="77"
-                        height="63"
-                        loading="lazy"
-                        alt="instagram post"
-                        className="img-cover"
-                      />
-                    </figure>
-                    <a
-                      target="_blank"
-                      href="https://www.instagram.com/zenith_yuga?igsh=NjE4c3ExZmx6bHky"
-                      className="card-content"
-                      rel="noopener noreferrer"
-                    >
-                      <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
-                    </a>
-                  </div>
+                  <p class="footer-list-title">Instagram post</p>
                 </li>
-                {/* Repeat similar blocks for other Instagram posts */}
+
                 <li>
-                  <div className="insta-card">
-                    <figure className="post-banner">
-                      <img
-                        src="https://lh3.googleusercontent.com/pw/ABLVV85R1QXoU3fiocHVF0v_lWQ4oEQQOyK2L0UoazaUvEtcx_FckcltWir47TEm5G4LsJR3aeBcuB4o61LuGPicznywFuE6WTR2WjZJCDbAAa5nvQ2Zcw=w2400?source=screenshot.guru"
-                        width="77"
-                        height="63"
-                        loading="lazy"
-                        alt="instagram post"
-                        className="img-cover"
-                      />
-                    </figure>
-                    <a
-                      target="_blank"
-                      href="https://www.instagram.com/zenithyuga?igsh=MWFkZGo2NzIzNXdpMg=="
-                      className="card-content"
-                      rel="noopener noreferrer"
-                    >
-                      <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
-                    </a>
-                  </div>
+                  <ul class="insta-post">
+
+                    <li>
+                      <div class="insta-card">
+
+                        <figure class="post-banner">
+                          <img src="https://lh3.googleusercontent.com/pw/ABLVV86VygtnwQpDm78XNJpIVA4N1DTrHU0MUrEfOieMuQEtO79X4pyidkTRkquK3RBXNNwZ4YAusxiRtpgFnOLgJ1ReT8-m5pcYiIp3HmF0CbRYur2RhA=w2400?source=screenshot.guru" width="77" height="63" loading="lazy"
+                            alt="instagram post" class="img-cover"></img>
+                        </figure>
+
+                        <a target="_blank" href="https://www.instagram.com/zenith_yuga?igsh=NjE4c3ExZmx6bHky" class="card-content">
+                          <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                        </a>
+
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="insta-card">
+
+                        <figure class="post-banner">
+                          <img src="https://lh3.googleusercontent.com/pw/ABLVV85R1QXoU3fiocHVF0v_lWQ4oEQQOyK2L0UoazaUvEtcx_FckcltWir47TEm5G4LsJR3aeBcuB4o61LuGPicznywFuE6WTR2WjZJCDbAAa5nvQ2Zcw=w2400?source=screenshot.guru" width="77" height="63" loading="lazy"
+                            alt="instagram post" class="img-cover"></img>
+                        </figure>
+
+                        <a target="_blank" href="https://www.instagram.com/zenithyuga?igsh=MWFkZGo2NzIzNXdpMg==" class="card-content">
+                          <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                        </a>
+
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="insta-card">
+
+                        <figure class="post-banner">
+                          <img src="https://lh3.googleusercontent.com/pw/ABLVV86wZEBp_ur1_TvQwoo9cEgB9Z9y-QLQ3ctNnLOMlyPqKmpUySMsxAaVkUCFC-wbCu-hSEYvNf9dAr4KV98UA98B0w27ebVAwaHV0_7FFZGtBEYTaw=w2400?source=screenshot.guru" width="77" height="63" loading="lazy"
+                            alt="instagram post" class="img-cover"></img>
+                        </figure>
+
+                        <a target="_blank" href="https://www.instagram.com/zenith_yuga?igsh=NjE4c3ExZmx6bHky" class="card-content">
+                          <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                        </a>
+
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="insta-card">
+
+                        <figure class="post-banner">
+                          <img src="https://lh3.googleusercontent.com/pw/ABLVV84JdhH-Isaq8J4Vw70S2uB36xtvaaq95uus7bOQpUCzDoOUgawcauFmMIgBSyBVUKa1l_noCpfsIOvw3U3ealqks1f1vdIkFoR-jgqIbOwoh88VKg=w2400?source=screenshot.guru" width="77" height="63" loading="lazy"
+                            alt="instagram post" class="img-cover"></img>
+                        </figure>
+
+                        <a target="_blank" href="https://www.instagram.com/zenith_yuga?igsh=NjE4c3ExZmx6bHky" class="card-content">
+                          <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                        </a>
+
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="insta-card">
+
+                        <figure class="post-banner">
+                          <img src="https://lh3.googleusercontent.com/pw/ABLVV87lc3A0DWK8SOSDCZbJSmihODSHcPdadFmlL7YBrSvPs-2sk7kMSGOiL0_fu3WXd3h1Qcvt7oJz9rM4uYqwG1HyCQQBel3QtPmJZWpASHXwTMzVtg=w2400?source=screenshot.guru" width="77" height="63" loading="lazy"
+                            alt="instagram post" class="img-cover"></img>
+                        </figure>
+
+                        <a target="_blank" href="https://www.instagram.com/zenith_yuga?igsh=NjE4c3ExZmx6bHky" class="card-content">
+                          <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                        </a>
+
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="insta-card">
+
+                        <figure class="post-banner">
+                          <img src="https://lh3.googleusercontent.com/pw/ABLVV85iLY-1hjSClXpWgUsQEAleywpeLjOXL44ciNZ-5kjBYdRB7j7qOriXUtohInRyCkM0NKsE2lXbzdv5MQeKv5WStey6p4OdP28ro6JOMp6UxbkATg=w2400?source=screenshot.guru" width="77" height="63" loading="lazy"
+                            alt="instagram post" class="img-cover"></img>
+                        </figure>
+
+                        <a target="_blank" href="https://www.instagram.com/zenith_yuga?igsh=NjE4c3ExZmx6bHky" class="card-content">
+                          <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                        </a>
+
+                      </div>
+                    </li>
+
+                  </ul>
                 </li>
-                {/* Add more insta-card blocks as needed */}
-              </ul>
-            </li>
+
           </ul>
         </div>
 
@@ -157,15 +205,6 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-
-        <a
-          href="#top"
-          className="back-top-btn has-after active"
-          aria-label="back to top"
-          data-back-top-btn
-        >
-          <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
-        </a>
       </div>
     </footer>
   );

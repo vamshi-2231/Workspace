@@ -1,4 +1,5 @@
-// import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Feature from './Components/Feature/Feature';
 import Home from './Components/Home/Home';
@@ -8,26 +9,23 @@ import Project from './Components/Project/Project';
 import Service from './Components/Service/Service';
 import Team from './Components/Team/Team';
 import Footer from './Components/Footer/Footer';
-import Firebase from './Components/Scripts/Firebase'
-import Loadscript from './Components/Scripts/Loadscript'
-
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Home/>
-      <Service/>
-      <Feature/>
-      <Project/>
-      <Contact/>
-      <Team/>
-      <Footer/>
-      {/* {Scripts} */}
-      {/* Firebase */}
-      {/* Loadscript */}
-
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/feature" element={<Feature />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/team" element={<Team />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

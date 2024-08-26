@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../Navbar/Navbar.css';
 
 export default function Navbar() {
@@ -28,28 +29,30 @@ export default function Navbar() {
                   </button>
                 </div>
 
-                <ul class="navbar-list">
-
-                  <li class="navbar-item">
-                    <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                <ul className="navbar-list">
+                  <li className="navbar-item">
+                    <Link to="/" className="navbar-link" data-nav-link>Home</Link>
                   </li>
 
-                  <li class="navbar-item">
-                    <a href="#service" class="navbar-link" data-nav-link>Services</a>
+                  <li className="navbar-item">
+                    <Link to="/service" className="navbar-link" data-nav-link>Services</Link>
                   </li>
 
-                  <li class="navbar-item">
-                    <a href="#feature" class="navbar-link" data-nav-link>Features</a>
+                  <li className="navbar-item">
+                    <Link to="/feature" className="navbar-link" data-nav-link>Features</Link>
                   </li>
 
-                  <li class="navbar-item">
-                    <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                  <li className="navbar-item">
+                    <Link to="/project" className="navbar-link" data-nav-link>Project</Link>
                   </li>
 
-                  <li class="navbar-item">
-                    <a href="#team" class="navbar-link" data-nav-link>Team</a>
+                  <li className="navbar-item">
+                    <Link to="/contact" className="navbar-link" data-nav-link>Contact</Link>
                   </li>
 
+                  <li className="navbar-item">
+                    <Link to="/team" className="navbar-link" data-nav-link>Team</Link>
+                  </li>
                 </ul>
 
               </nav>
