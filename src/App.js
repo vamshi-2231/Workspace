@@ -9,10 +9,12 @@ import Project from './Components/Project/Project';
 import Service from './Components/Service/Service';
 import Team from './Components/Team/Team';
 import Footer from './Components/Footer/Footer';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop'; // Import the ScrollToTop component
 
 function App() {
   return (
     <Router>
+      <ScrollToTop /> {/* Add ScrollToTop here */}
       <div className="App">
         <Navbar />
         <Routes>
@@ -22,6 +24,7 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/team" element={<Team />} />
+          <Route path="*" element={<Home />} /> {/* Wildcard route for unmatched paths */}
         </Routes>
         <Footer />
       </div>
