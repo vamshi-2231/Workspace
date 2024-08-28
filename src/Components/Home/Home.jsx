@@ -25,7 +25,7 @@ export default function Home() {
                 </p>
 
                 <div className="wrapper">
-                  <a href="#feature" className="btn btn-primary has-before has-after">How We Work</a>
+                  <a href="/feature" className="btn btn-primary has-before has-after">How We Work</a>
                 </div>
 
                 <ul className="social-list">

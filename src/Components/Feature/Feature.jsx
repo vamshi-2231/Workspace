@@ -1,5 +1,8 @@
 import React from 'react'
 import '../Feature/Feature.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRocket,faHeadset,faUsers } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Feature() {
   return (
@@ -32,7 +35,7 @@ export default function Feature() {
                 <div class="feature-card">
 
                 <div className="card-icon" style={{ "--color": "174, 77%, 50%" }}>
-                <ion-icon name="rocket-sharp" aria-hidden="true"></ion-icon>
+                <FontAwesomeIcon icon={faRocket} aria-hidden="true" />
                 </div>
 
 
@@ -51,7 +54,7 @@ export default function Feature() {
                 <div class="feature-card">
 
                 <div className="card-icon" style={{ "--color": "241, 77%, 63%" }}>
-                    <ion-icon name="people-sharp" aria-hidden="true"></ion-icon>
+                <FontAwesomeIcon icon={faUsers} aria-hidden="true" />
                     </div>
 
 
@@ -70,7 +73,7 @@ export default function Feature() {
                 <div class="feature-card">
 
                 <div className="card-icon" style={{ "--color": "343, 98%, 60%" }}>
-                    <ion-icon name="headset-sharp" aria-hidden="true"></ion-icon>
+                <FontAwesomeIcon icon={faHeadset} aria-hidden="true" />
                     </div>
 
                   <div>
