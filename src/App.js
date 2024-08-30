@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import '../src/Components/Styles/custom.scss'
 import Feature from './Components/Feature/Feature';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
@@ -9,12 +11,12 @@ import Project from './Components/Project/Project';
 import Service from './Components/Service/Service';
 import Team from './Components/Team/Team';
 import Footer from './Components/Footer/Footer';
-import ScrollToTop from './Components/ScrollToTop/ScrollToTop'; // Import the ScrollToTop component
+import CustomScript from './Components/Scripts/Customscript';
 
 function App() {
   return (
     <Router>
-      <ScrollToTop /> {/* Add ScrollToTop here */}
+      <CustomScript />  
       <div className="App">
         <Navbar />
         <Routes>
@@ -24,7 +26,7 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/team" element={<Team />} />
-          <Route path="*" element={<Home />} /> {/* Wildcard route for unmatched paths */}
+          <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
       </div>

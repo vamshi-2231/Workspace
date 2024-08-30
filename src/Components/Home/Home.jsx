@@ -1,5 +1,10 @@
-import React from 'react'
-import '../Home/Home.css'
+import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link for routing
+import '../Home/Home.css'; // Import your CSS
+
+// Import Font Awesome components and icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
   return (
@@ -25,27 +30,27 @@ export default function Home() {
                 </p>
 
                 <div className="wrapper">
-                  <a href="/feature" className="btn btn-primary has-before has-after">How We Work</a>
+                  <Link to="/feature" className="btn btn-primary has-before has-after">How We Work</Link>
                 </div>
 
                 <ul className="social-list">
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=61554996852014&mibextid=ZbWKwL"t className="social-link" style={{ "--color": "hsl(241, 77%, 63%)" }}>
-                      <ion-icon name="logo-facebook"></ion-icon>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=61554996852014&mibextid=ZbWKwL" className="social-link" style={{ "--color": "hsl(241, 77%, 63%)" }}>
+                      <FontAwesomeIcon icon={faFacebookF} /> {/* Facebook Font Awesome Icon */}
                       <span className="span">Facebook</span>
                     </a>
                   </li>
 
                   <li>
                     <a target="_blank" rel="noopener noreferrer" href="https://youtube.com/@ZENITHYUGA?si=efcP15tUmAR2txrj" className="social-link" style={{ "--color": "hsl(0, 100%, 50%)" }}>
-                      <ion-icon name="logo-youtube"></ion-icon>
-                      <span className="span">Youtube</span>
+                      <FontAwesomeIcon icon={faYoutube} /> {/* YouTube Font Awesome Icon */}
+                      <span className="span">YouTube</span>
                     </a>
                   </li>
 
                   <li>
                     <a target="_blank" rel="noopener noreferrer" href="https://x.com/ZenithYuga?t=aVoPJpDDvqHpqwbyJQThwg&s=09" className="social-link" style={{ "--color": "hsl(203, 89%, 53%)" }}>
-                      <ion-icon name="logo-twitter"></ion-icon>
+                      <FontAwesomeIcon icon={faTwitter} /> {/* Twitter Font Awesome Icon */}
                       <span className="span">Twitter</span>
                     </a>
                   </li>
